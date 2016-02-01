@@ -1,0 +1,207 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Zixuan Wang</title>
+  <meta name="keywords" content="zixuan, designer, UX, visual, georgia institute of technology, interaction ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+
+<!--Style-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">  
+
+</head>
+
+<body>
+
+
+<div class="opacity-nav">
+
+        <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+        </div>
+
+    <ul class="menu-fullscreen">
+      <li><a href="index.html">Projects</a></li>
+      <li><a href="about-us.html">About Me</a></li>
+    </ul>
+
+</div>
+
+
+  <!--Header-->
+  <header id="fullscreen">
+    
+      <div class="logo" id="full"><a href="index.html" id="newColor">Zixuan Wang</a></div>
+      
+        <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+        </div>
+        
+  </header>
+
+  <div class="clear"></div>
+
+  <!--Content-->
+
+  <div class="content" id="ajax-content">
+
+
+        <div class="text-intro">
+
+          <h1>The Birth of a New Civil Rights Movement</h1>
+          
+                    
+	          <div class="one-column">
+	            <p>Website Design | Information Aggregation</p>
+	          </div>
+            <br/><br/><br/>
+
+
+		          <div class="two-column">
+		            <p><br><strong><a href="http://homes.lmc.gatech.edu/~zwang620/BLM/index.html">The Birth of a New Civil Rights Movement</a></strong> is an individual information aggregation project that I finished in class LMC 6313 at Gatech, where I collected multiple sources of data around Black Lives Matter and reorganized them into a more aggregated and engaging format.</p>
+
+                <div class="clear"></div>               
+                <img src="img/portfolio3/02.jpg" width="100%">
+                
+                <h2>Goal</h2>
+                <p>After the death of Michael Brown and Eric Garner in 2014, Black Lives Matter movement happened across the United States. The purpose of this project is to increase more social awareness for people of color who got killed because of police brutality. Meanwhile, I would also like to offer a comprehensive view of Black Lives Matter so that helps with the people who care about. </p>
+                <h2>Design process</h2>
+                <h3>Brainstorm and Survey</h3>
+                <p>After making up my mind of creating a website for Black Lives Matter, I started thinking about a question: what information do people care most around Black Lives Matter? I went out to my friends for answers. According to what they told me, I decided to cover three aspects of Black Lives Matter:</p>
+                <ul>  
+                    <li class="list">a) people of color who got shot dead by police since Michael Brown,</li>
+                    <li class="list">b) BLM movements and protests,</li>
+                    <li class="list">c) public reactions to both deaths and protests.</li>
+                </ul>
+
+                <br/><br/>
+                <h3>Similar Products</h3>
+                <p>I did research on similar products relating to each aspect of Black Lives Matter and figured out their cons and pros. This time, I didn’t search for the exactly same website because I am doing an information aggregation, so I was just looking for how people are solving problems for each aspect.</p>
+                <p>Geography of Jobs is an animated map illustrating job changes over the years. The larger bubble on the map represents more job changes and vice versa. I thought this is a good way for me to show both locations and the size of each protest events.</p>
+                <p>Meanwhile, I also found other interesting projects using different colors to represent the extent of particular situations, which inspired me of highlighting the number of people dead in each state by coloring each of them.</p>
+                <img src="img/portfolio3/01.jpg" width="100%"><br/>
+
+
+                <br/><br/>
+                <h3>Structure Design</h3>
+                <p>At the early survey stage, I found three mains aspects to be covered in the project. I began to think about how to organize them and who should come first. My approach was based on the basic connections between each of them. I put the deaths of black people in the first place because compared to the other two, deaths like Michael Brown resulted in the protests, so it should be coming first. In this part, I decided to have two things covered. One is an interactive map showing the number of people dead since the death of Michael Brown in 2014. The other one shows the stories and information of each victim.</p>
+                <br>
+                <img src="img/portfolio3/03.jpg" width="100%"><br/>
+                <br><br>
+
+                <p>Then I put protest events in the second place followed by the social media section, which makes sense because people react to events after they happened. In protest events part, it also has two sections. The first one is a bubble map showing the density and the size of these events. Through that, I would like to enable viewers to find out something meaningful like “which state/part of United States is an event-heavy part?” The other shows the notable events in each month on a timeline, which I thought is a good perspective for viewers to learn about how things are going.</p>
+                <p>In terms of the public reaction part, I decided to implement two social media widgets to fully display what people are expressing online. So I included Twitter for thoughts in text format and Flickr for images.</p>
+
+                <div class="clear"></div><br><br><br>
+
+                <h3>Specifics</h3>
+                <p>
+                  <span class="black">Map Visualization of Distribution:</span> I made two interactive maps in this project using D3 from scratch. I took map data from U.S. Census Bureau, and colored each state. Then I added bubbles onto the map. The bubbles are interactive that when viewers hover over it, it shows information of it.
+                  <br><br>
+                <img src="img/portfolio3/05.jpg" width="100%"><br><br>
+                </p>
+
+                <p>
+                  <span class="black">Layout Arrangement:</span> I chose to display information in one page format with three big sections. I had a landing page at first allowing viewers to choose their own adventure. Also viewers are able to view the entire page just by scrolling down.</p>
+                <p>
+                  <span class="black">Coding Language:</span> I coded the project from scratch using basic coding language like HTML, CSS, Javascript/JQuery. Special libraries apply including D3 and Bootstrap.</p>
+
+                <h2>Iteration</h2>
+                <h3>User Testing and Feedback</h3>
+                <p>After finishing the draft version of website, I did user testing on it. I brought my project to class and asked for feedbacks from my classmates. First, I had them play through my website and think aloud without any instruction or hint. I observed the process and collected data while they were playing. Based on my observation, I found out that they were a bit lost due to the lack of necessary context. After that, I talked with them and explained what my project is. They once again suggested me to include more context so that helps with making more sense of the visualization.</p>
+
+                <br><br>
+                <h3>Improvement</h3>
+                <p>I made some modifications based on feedbacks collected from user testing. The biggest one was adding one paragraph for each visualization so that explains what I am doing to the viewers for better understanding. In addition, I also modified the pop up text to be more contextualized for the same purpose. Other modifications involve color color palette picking, icon designing, etc.</p>
+              </div>   
+                          
+                <div class="clear"></div>             
+                                
+                <br/><br/><br/>
+                
+                <img src="img/portfolio3/04.jpg" width="100%"><br/>
+
+              <div class="two-column">
+                <h2>Future Works</h2>
+                <h3>Integrated timeline with map</h3>
+                <p>One minor problem in this project is with the timeline and map. I hope I could connect timeline with map by either putting all events on timeline or incorporating timeline function with map. Either way, it will give more agency to viewers.</p>
+                <br><br>
+                <h3>Responsive page</h3>
+                <p>Due to the lack of knowledge of D3, the interactive map is not responsive as well as some other contents like timeline. I will try to figure them out in future works.</p>
+                <h2>Project Links</h2>
+                <h3 id="link_button">Project Link: <a href="http://homes.lmc.gatech.edu/~zwang620/BLM/index.html">CHECK OUT HERE</a></h3>
+                <h3 id="link_button">Process Documentation: <a href="https://docs.google.com/presentation/d/1HYaOpIcelDiKm0n5OZ26m28Fmx7aZCF6b-TouiPEZG0/edit?usp=sharing">CHECK OUT HERE</a></h3>
+              </div>        
+        
+					        <div class="prev-next">
+					        
+					          <div class="prev-button"><a href="content02.html">Previous work</a></div>
+					          <div class="next-button"><a href="content04.html">Next work</a></div>
+					
+					        </div>
+            </div>
+        
+    </div>
+
+
+
+
+  <!--Footer-->
+<div class="learn-more">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <!-- <div class="pull-left">
+        <h3>Connect Me</h3>
+        <p>Linkedin: ~/in/zixuanwang</p
+        <p>Wechat: wangzixuan19911026</p>
+      </div> -->
+      </div>
+      <div class="col-md-4">
+          <h1>Zixuan Wang</h1>
+          <p>Copyright &copy; Zixuan Wang 2015</p>
+      </div>
+      <div class="col-md-3">
+        <div class="pull-right">
+          <!-- <h3>Contact Me</h3>
+          <p>Tel: (206)-519 9230</p
+          <p>Email: gt.zixuan@gmail.com</p> -->
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Scripts-->
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+ 
+  <script src="js/script.js" type="text/javascript"></script>
+  
+	<script>
+    $('#button, #buttons').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
+
+
+</body>
+</html>
